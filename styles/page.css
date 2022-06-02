@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sora', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F8F0DF;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1 img {
+    width: 300px;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: column;
+}
+.flex-container-admin {
+	display: flex;
+	flex-direction: column;
+}
+header {
+	display: flex;
+    flex-direction: row;
+}
+
+header h1 {
+	width: 75%;
+}
+
+main {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.admin-main {
+	display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.card {
+    border-radius: 40px;
+	padding: 20px;
+	margin-top: 20px;
+	background-color: white;
+    box-shadow: 0 4px 4px 0 grey;
+    font-size: 20px;
+}
+
+.card-admin{
+    border-radius: 40px;
+	padding: 20px;
+	margin-top: 20px;
+	background-color: white;
+    box-shadow: 0 4px 4px 0 grey;
+    font-size: 20px;
+	margin-left: 20px;
+}
+
+.card-nilai{
+    border-radius: 40px;
+	padding: 20px;
+	margin-top: 20px;
+	background-color: white;
+    box-shadow: 0 4px 4px 0 grey;
+    font-size: 20px;
+	margin-left: 20px;
+}
+
+.card-admin form {
+	font-family: "Roboto";
+    font-weight: bold;
+    width: 500px;
+    font-size: 20px;
+    margin-left: 30px;
+    line-height: 2em;
+}
+
+.card-nilai form {
+	font-family: "Roboto";
+    font-weight: bold;
+    width: 500px;
+    font-size: 20px;
+    margin-left: 30px;
+    line-height: 2em;
+}
+
+.card-admin input {
+	height: 40px;
+    width: 300px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: black;
+    outline: none;
+    font-size: 15px;
+}
+.card-nilai input {
+	height: 40px;
+    width: 300px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: black;
+    outline: none;
+    font-size: 15px;
+}
+
+select {
+	/* styling */
+	background-color: white;
+	border-radius: 4px;
+	display: inline-block;
+	font: inherit;
+	line-height: 1.5em;
+	padding: 0.5em 3.5em 0.5em 1em;
+
+	/* reset */
+
+	margin: 0;      
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background-image:
+	  linear-gradient(45deg, transparent 50%, gray 50%),
+	  linear-gradient(135deg, gray 50%, transparent 50%),
+	  radial-gradient(#ddd 70%, transparent 72%);
+	background-position:
+	  calc(100% - 20px) calc(1em + 2px),
+	  calc(100% - 15px) calc(1em + 2px),
+	  calc(100% - .5em) .5em;
+	background-size:
+	  5px 5px,
+	  5px 5px,
+	  1.5em 1.5em;
+	background-repeat: no-repeat;
+  }
+  
+  select:focus {
+	background-image:
+	  linear-gradient(45deg, white 50%, transparent 50%),
+	  linear-gradient(135deg, transparent 50%, white 50%),
+	  radial-gradient(gray 70%, transparent 72%);
+	background-position:
+	  calc(100% - 15px) 1em,
+	  calc(100% - 20px) 1em,
+	  calc(100% - .5em) .5em;
+	background-size:
+	  5px 5px,
+	  5px 5px,
+	  1.5em 1.5em;
+	background-repeat: no-repeat;
+	border-color: green;
+	outline: 0;
+  }
+
+.buttons input {
+    background-color: #4D9EC2;
+    width: fit-content;
+    margin: 10px 0 0 340px;
+    padding: 5px 10px 5px 10px;
+    border-style: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+}
+
+.button-logout input {
+    background-color: #4D9EC2;
+    width: fit-content;
+    margin: 10px 0 0 340px;
+    padding: 5px 10px 5px 10px;
+    border-style: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+}
+
+.content {
+	width: 75%;
+	margin-left: 10px;
+}
+
+.content-admin {
+	width: 30%;
+	margin-left: 10px;
+}
+
+/* aside width and padding settings */
+aside {
+	width: 20%;
+	padding-left: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    #content,
+	aside {
+		width: 100%;
+		padding: 0;
+	}
+
+	main {
+		display: flex;
+		flex-direction: column;
+		flex-grow: 1;
+		padding: 20px;
+	}
+}
+
