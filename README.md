@@ -22,7 +22,7 @@ Tool  :
 - Visual studio code (Text editor)
 - PHPMyAdmin
 
-kami menyarankan untuk PHP dan Apache dengan instalasi menggunakan stack XAMPP.
+Disarankan menggunakan untuk PHP dan Apache dengan instalasi menggunakan stack XAMPP.
 
 ## Cara instalasi
 ---
